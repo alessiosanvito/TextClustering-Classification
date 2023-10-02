@@ -1,23 +1,6 @@
-STEPS TO EXECUTE
-
-1 - CREATE A DIRECTORY ON GOOGLE DRIVE
-
-2 - PUT IN THE DIRECTORY ALL .ipynb FILES
-
-3 - PUT IN THE DIRECTORY THE DATASET BalancedData.csv
-
-4 - GO IN THE Pre_processing.ipynb FILE AND CHANGE THE PATH VARIABLE
-
-    FROM 
-
-    path = "/content/drive/MyDrive/ProgettiDataScience-SAD/2ANNO1SEMESTRE/TEXT MINING AND SEARCH/Poterti Sanvito/Progetto TextMining/BalancedData.csv"
-
-    TO
-
-    path = "/content/drive/MyDrive/YOUR_PATH_HERE/BalancedData.csv"
-
-    CHANGING WITH YOUR PATH
-
-5 - RUN ALL CELLS TO PRODUCE THE PREPROCESSED DATASET
-
-6 - NOW YOU CAN RUN TEXT CLASSIFICATION OR TEXT CLUSTERING TASKS RUNNING .ipynb FILES (REMEMBER TO CHANGE PATH VARIABLE WITH YOUR DIR)
+This project aims to classify reviews from a Steam dataset through some text classification
+techniques; in particular, different BERT models have been used to compare their performance.
+The results performed by the models implemented are evaluated even in comparison
+with some other results obtained by different models implemented in papers online. This kind
+of approach has been used even for the second task of the project, which is text clustering,
+whose aim is to group reviews that express similar sentiments.
